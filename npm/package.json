@@ -1,0 +1,32 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "learn nodejs npm",
+  "exports": {
+    ".": "./index.js",
+    "./write": "./write.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "lodash": "^4.1.1"
+  },
+  "devDependencies": {
+    "moment": "x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tribagus"
+  },
+  "scripts": {
+    "prestart": "echo \"Before app running\" ",
+    "start": "node index.js",
+    "poststart": "echo \"After app running\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "npm"
+  ],
+  "author": "tribagus",
+  "license": "ISC"
+}

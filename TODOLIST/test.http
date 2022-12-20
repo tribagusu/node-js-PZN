@@ -1,9 +1,9 @@
-GET http://localhost:3000
+GET http://localhost:8000
 
 
 ###
 
-POST http://localhost:3000
+POST http://localhost:8000
 Content-Type: application/json
 Accept: application/json
 
@@ -12,7 +12,7 @@ Accept: application/json
 }
 
 ###
-PUT http://localhost:3000
+PUT http://localhost:8000
 Content-Type: application/json
 Accept: application/json
 
@@ -22,7 +22,7 @@ Accept: application/json
 }
 
 ###
-DELETE http://localhost:3000
+DELETE http://localhost:8000
 Content-Type: application/json
 Accept: application/json
 
